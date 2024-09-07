@@ -21,7 +21,7 @@ function LoanForm({ onSubmit, theme }) {
   };
 
   return (
-    <form onSubmit={handleSubmit} className={`p-4 bg-white rounded shadow-md max-w-lg mx-auto space-y-4 ${theme === 'light' ? 'bg-white' : 'bg-gray-700'}`}>
+    <form onSubmit={handleSubmit} className={`p-4 rounded shadow-md max-w-lg mx-auto space-y-4 ${theme === 'light' ? 'bg-white' : 'bg-gray-700'}`}>
       <h2 className="text-xl font-bold text-center">EMI Calculator</h2>
       <div className="mb-4">
         <label className={`block mb-2 ${theme === 'light' ? 'text-gray-700' : 'text-gray-300'}`}>Loan Amount</label>
